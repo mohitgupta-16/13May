@@ -34,11 +34,13 @@ label {
 
 .button-box {
     margin: 0 auto;
+    display: felx;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     padding: 0.5rem 1rem;
-    margin-right: 10px;
     font-weight: bolder;
     font-size: large;
     border-radius: 3px;
