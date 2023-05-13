@@ -107,10 +107,10 @@ function Calculator() {
         {/* buttons */}
         <h3>Operations</h3>
         <div className='button-box'>
-            <button onClick={additionHandler}>+</button>
-            <button onClick={subtractionHandler}>-</button>
-            <button onClick={divisionHandler}>/</button>
-            <button onClick={multiplyHandler}>*</button>
+            <button className='button' onClick={additionHandler}>+</button>
+            <button className='button' onClick={subtractionHandler}>-</button>
+            <button className='button' onClick={divisionHandler}>/</button>
+            <button className='button' onClick={multiplyHandler}>*</button>
         </div>
 
         {/* error message */}
