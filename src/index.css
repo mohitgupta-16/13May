@@ -34,13 +34,9 @@ label {
 
 .button-box {
     margin: 0 auto;
-    display: felx;
-    justify-content: center;
-    align-items: center;
 }
 
 button {
-    all: unset;
     padding: 0.5rem 1rem;
     font-weight: bolder;
     font-size: large;
